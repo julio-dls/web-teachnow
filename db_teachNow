@@ -1,0 +1,44 @@
+DROP TABLE IF EXISTS
+    persona;
+    
+CREATE TABLE persona(
+    id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    nombre VARCHAR(30),
+    apellido VARCHAR(30),
+    fechaNacimiento DATE,
+    nacionalidad VARCHAR(20),
+    telefono VARCHAR(20),
+    direccion VARCHAR(20)
+); 
+
+INSERT INTO persona(
+    nombre,
+    apellido,
+    fechaNacimiento,
+    nacionalidad,
+    telefono,
+    direccion
+) VALUES(
+    "Julio",
+    "Quiroga",
+    '2017-04-11',
+    "argentino",
+    "0152343435",
+    "Arenales 2154"
+),(
+    "Miguel",
+    "Dueñas",
+    '2018-09-12',
+    "cuba",
+    "022434342",
+    "Dorrego 234"
+);
+DROP TABLE IF EXISTS
+    perfil;
+CREATE TABLE perfil(
+    id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    id_persona INT NOT NULL REFERENCES persona(id)
+); 
+INSERT INTO perfil(id_persona)
+VALUES(1),(2);
+ALTER TABLE persona rename column fechanacimiento to fechainicio;

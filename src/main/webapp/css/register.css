@@ -1,0 +1,156 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif; 
+	   background: url(../img/images/banner.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+      height: 100%;
+}
+
+h2 {
+    text-align: left;
+    font-size: 19px !important;
+    color: #333;
+    margin: 0 !important;
+    padding: 10px 20px !important;
+}
+
+.main-wrapper {
+    margin: 0 auto;
+    margin-top: 6rem;
+
+}
+
+.form_alineado {
+    margin-left: 20%;
+    padding: 30px 0;
+}
+
+.form_line {
+    max-width: 40%;
+}
+
+.label_alineado {
+    /*text-align: right;*/
+}
+
+#pconducir td {
+    padding: 0;
+    width: 71px;
+}
+
+.contador p {
+    text-align: right;
+}
+
+.form_full {
+    width: 91% !important;
+    float: left;
+    margin-top: 8px;
+}
+
+textarea {
+    padding: 6px 12px;
+    resize: none;
+}
+
+/* Small devices (tablets, 768px and medium devices (desktops, 992px) */
+
+@media (max-width: 768px) and (max-width: 992px) {
+    .label_alineado {
+        text-align: left;
+    }
+    .form_alineado {
+        margin-left: 0;
+        padding: 6px;
+    }
+}
+
+.centrar_btn {
+    justify-content: center;
+}
+
+footer {
+    background:#000;
+    margin-top:0px;
+}
+
+.input-group-addon {
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+.rounded-circle {
+    width: 150px;
+}
+ .bg-success {
+     background-color: #f9f9f9 !important;
+	 border-top: 1px solid #ddd;
+     border-bottom: 1px solid #ddd;
+   }
+ .form_linea {
+    overflow: visible;
+    margin: 0 auto 20px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.rojo{
+color: #a8272d;
+}
+
+.form_linea {
+    overflow: visible;
+    margin: 0 auto 20px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.btn-primaryCus {
+    color: #fff;
+    background-color: #7ac185d9;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 14px;
+}
+
+.btn-EliminarCus {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 14px;
+}
+
+.btn-EliminarCus:hover {
+   background-color: #cbcdce;
+    
+}
+
+.btn-primaryCus:hover {
+  background-color: #6bbc77;
+  color: white;
+}
+
+.modalCus{
+    background-color: #f9f9f9;
+}
+
+.rojo{
+color: #a8272d;
+}

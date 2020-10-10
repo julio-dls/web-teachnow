@@ -1,1 +1,5 @@
-# web-teachnow
+<<<<<<< HEAD
+# TeachNowWeb
+=======
+# teachnow-web
+>>>>>>> Primer commit

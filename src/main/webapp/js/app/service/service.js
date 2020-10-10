@@ -1,0 +1,2 @@
+teachNow.service = {};
+
